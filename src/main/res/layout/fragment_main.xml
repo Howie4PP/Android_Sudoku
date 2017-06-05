@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@color/white"
+    >
+    <EditText
+        android:id="@+id/nickname_et"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/et_width"
+        android:layout_margin="@dimen/d35"
+        android:hint="@string/input_name"
+        android:padding="@dimen/d3"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:inAnimation="@anim/slide_in"
+        android:outAnimation="@anim/slide_out"
+        android:inputType="text"
+        android:textColorHint="@color/blue"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_edittext"/>
+    <Button
+        android:id="@+id/use_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        android:layout_gravity="center"
+        android:inAnimation="@anim/slide_in"
+        android:outAnimation="@anim/slide_out"
+        android:textColor="@color/white"
+        android:textSize="@dimen/d18"
+        android:background="@drawable/bg_btn"/>
+    <TextView
+        android:id="@+id/welcome_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/blue"
+        android:layout_gravity="center"
+        android:inAnimation="@anim/slide_in"
+        android:outAnimation="@anim/slide_out"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/d35"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/start_game_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_game"
+        android:layout_marginRight="@dimen/d35"
+        android:layout_marginLeft="@dimen/d35"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/d35"
+        android:textSize="@dimen/d18"
+        android:inAnimation="@anim/slide_in"
+        android:outAnimation="@anim/slide_out"
+        android:visibility="gone"
+        android:background="@drawable/bg_btn"/>
+
+
+</LinearLayout>

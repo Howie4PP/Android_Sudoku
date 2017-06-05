@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shenhaichen.educationalgameapp.ui.SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:text="Music"/>
+        <TextView
+            android:id="@+id/music_status_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:text="ON"/>
+        <ImageButton
+            android:id="@+id/music_switch_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@color/transparent"
+            android:layout_weight="1"
+            android:src="@drawable/selector_swith"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/settings_wipe_cache"
+        android:background="@drawable/bg_edittext"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:text="Wipe Cache"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
